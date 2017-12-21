@@ -1,0 +1,183 @@
+
+@media screen and (min-width: 900px){
+
+body{
+  width: 100%;
+  margin: 0;
+  font-family: Arial;
+  font-style: bold;
+  font-size: 0.8em;
+  color: #757575;
+}
+
+/* HEADER */
+
+header{
+  height: 60px;
+}
+
+nav{
+  display: inline-block;
+  float: right;
+}
+
+nav a{
+color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #757575;
+}	
+	
+nav .connexion:hover {
+ color: #fff;
+ text-decoration: none;
+}	
+	
+	
+/* Footer */
+
+footer{
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  background-color: #f2f2f2;
+  bottom: 0;
+  border-top: 1px solid #D2DCDB;
+} 
+	
+
+.position_droite{
+  float: right;
+  margin-right: 32px;
+  margin-top: 13px;
+}
+
+.position_gauche{
+  float: left;
+  margin-left: 32px;
+  margin-top: 13px;
+}
+
+/* Liens */
+
+a{
+  text-decoration: none;
+  color: #757575;
+  font-weight: bold;	
+}
+	
+a:hover {
+  color: black;
+}
+
+header a{
+  margin-right: 20px;
+}
+
+
+footer a{
+  display: inline-block;
+  font-weight: normal;
+}
+	
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Bouton "connexion" */
+
+.connexion {
+  display: inline-block;
+  width: 93px;
+  height: 22px;
+  background-color: #4584ee;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 2px;
+  margin-right: 30px;
+  margin-top: 16px;
+  padding-top: 8px;
+  text-align: center;
+}
+
+	
+/* Images menu*/
+
+#bouton_menu{
+position: relative;
+height: 17px;
+width: 17px;
+display: inline-block;
+margin-right: 20px;
+
+}
+
+.bouton_menu{
+  height: 17px;
+  width: 17px;
+
+}
+
+/* Menu principal barre de recherche google */
+
+
+.barre_recherche a{
+  display: inline-block;
+  background-color: #f2f2f2;
+  text-align: center;
+  width: 150px;
+  height: 26px;
+  margin-top: 20px;
+  margin-right: : 20px;
+  padding-top: 11px;
+}
+
+.boutons_recherche{
+  width: 320px;
+  margin-top: 20px;
+  margin-left: 150px;
+  
+}
+
+.image_google{
+  width: 290px;
+  text-align: center;
+  margin-top: 130px;
+  margin-left: 550px;
+  padding-top: 11px;
+  font-weight: bold;
+}
+
+.barre_recherche{
+  width: 900px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 420px;
+  padding-top: 1px;
+}
+
+input{
+  display: block;
+  border-style: solid;
+  width: 590px;
+  height: 35px;
+  border: 2px solid  #f0f0f0;
+  outline: none;
+}
+input:hover {
+box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+    #vocale {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background: url(images/google_microphone.png);
+    background-size: 24px 24px;
+}
+}
+
+
+
+
